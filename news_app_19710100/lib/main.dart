@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app_19710100/components/customListTile.dart';
 import 'package:news_app_19710100/model/article_model.dart';
 import 'package:news_app_19710100/service/api_service.dart';
+import 'package:news_app_19710100/splashscreen_view.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: SplashScreenPage(),
     );
   }
 }
